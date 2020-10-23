@@ -1,0 +1,55 @@
+/* specificty: 1 */
+h1 {
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black;
+}
+
+/* specificty: 1 */
+p {
+    width: fit-content;
+    height: fit-content;
+    border: solid black;
+} 
+
+/* specificty: 1 */
+div {
+    width: fit-content;
+    height: fit-content;
+    border: solid black;
+} 
+
+/* specificity: 100 */
+#promote {
+    color: red;
+}
+
+/* specificity: 10 */
+.alpha {
+    color: blue;
+}
+
+/* specificity: 10 */
+.beta {
+    color: green;
+}
+
+/* specificity: 10 */
+.gamma {
+    color: yellow
+}
+
+/* specificty: 1 */
+p::first-line {
+    color: purple;
+}
+
+/* specificty: 1 */
+p ::first-line {
+    color: orange;
+}
+
+/* specificty: 1 */
+div + p {
+    color: brown;
+}
