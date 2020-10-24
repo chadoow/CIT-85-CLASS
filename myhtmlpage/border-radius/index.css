@@ -1,0 +1,11 @@
+div {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 100%;
+    background-image: url(https://assets.sainsburys-groceries.co.uk/gol/93/1/640x640.jpg);
+    background-color: yellow;
+    background-size: cover;
+    margin: auto;
+    display: inline-block;
+}
