@@ -1,0 +1,12 @@
+li {
+    display: inline-block;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: red;
+}
