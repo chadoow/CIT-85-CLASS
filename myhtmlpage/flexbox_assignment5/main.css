@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    width: 650px;
+    height: 300px;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    margin-left: 350px;
+}
+
+span {
+    border: 2px solid red;
+    width: 550px;
+    height: 300px;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+
+div {
+    color: white;
+}
+
+.one {
+    width: 200px;
+    height: 300px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: darkblue;
+}
+
+.two {
+    width: 550px;
+    height: 150px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: royalblue;
+}
+
+.three {
+    width: 550px;
+    height: 150px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: lightblue;
+}
