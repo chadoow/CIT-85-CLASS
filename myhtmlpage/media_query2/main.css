@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    width: 1350px;
+    height: 400px;
+    flex-flow: row wrap;
+    border: red dotted;
+    padding-bottom: 200px;
+}
+
+div {
+    border: 1px solid black;
+    flex-basis: 500px;
+    text-align: center;
+    font-size: large;
+    font-weight: 800;
+    font-family: sans-serif;
+    line-height: 7;
+}
+
+.one {
+    width: 100%;
+    flex-basis: 100%;
+    background-color: coral;
+}
+
+.two {
+    width: 800px;
+    flex-grow: 3;
+    flex-shrink: 3;
+    background-color: lightskyblue;
+}
+
+.three {
+    width: 800px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: lightgreen;
+}
+
+.four {
+    width: 800px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: yellow;
+}
+
+.five {
+    width: 800px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: blueviolet;
+}
