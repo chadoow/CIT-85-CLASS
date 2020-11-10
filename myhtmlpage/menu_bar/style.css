@@ -1,0 +1,21 @@
+ul {
+    list-style: none;
+    background: deepskyblue;
+}
+
+a {
+    text-decoration: none;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+    border-top: white;
+    border-bottom: gray;
+}
+
+a:hover {
+    background: royalblue;
+}
+
+a:last-child {
+    border-bottom: none;
+}
