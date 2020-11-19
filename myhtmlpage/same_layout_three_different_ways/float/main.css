@@ -1,0 +1,40 @@
+body {
+    width: 1400px;
+    height: max-content;
+}
+
+article {
+    overflow: auto;
+    border: 6px solid green;
+}
+
+.one {
+    border: 6px solid blue;
+    height: 100px;
+    width: 1350px;
+    background-color: yellow;
+}
+
+.two {
+    float: left;
+    height: 200px;
+    width: 20%;
+    background-color: lightskyblue;
+    border: 4px solid black;
+}
+
+.three {
+    float: right;
+    height: 200px;
+    width: 78%;
+    background-color: limegreen;
+    border: 4px solid black;
+}
+
+.four {
+    clear: both;
+    height: 100px;
+    width: 1350px;
+    background-color: purple;
+    border: 6px solid red;
+}
